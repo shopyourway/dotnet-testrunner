@@ -2,6 +2,19 @@
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
 		<TargetFramework>netcoreapp2.0</TargetFramework>
+		<PackageId>OhioBox.TestRunner</PackageId>
+		<BuildNumber>0</BuildNumber>
+		<PackageVersionSuffix>-dev</PackageVersionSuffix>
+		<AssemblyVersion>1.0.$(BuildNumber)</AssemblyVersion>
+		<FileVersion>$(AssemblyVersion)</FileVersion>
+		<PackageVersion>$(AssemblyVersion)$(PackageVersionSuffix)</PackageVersion>
+		<Authors>Sears Israel</Authors>
+		<Description>A dotnet CLI tool for running tests in multiple projects</Description>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<RepositoryUrl>https://github.com/shopyourway/dotnet-testrunner</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/shopyourway/dotnet-testrunner</PackageProjectUrl>
+		<Copyright>© 2018 Sears Israel. All rights reserved.</Copyright>
+		<PackageTags>dotnet dotnet-core dotnet-tool tests testing unit-tests</PackageTags>
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="System.Diagnostics.Process" Version="4.3.0" />
