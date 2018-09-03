@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using CommandLine;
 
@@ -21,7 +20,6 @@ namespace OhioBox.TestRunner
 
 			[Option('e', "exclude", Required = false, HelpText = "Excluded categories (assigned as traits with the name \"Categgory\"")]
 			public IEnumerable<string> ExcludedCategories { get; set; }
-
 		}
 
 		static int Main(string[] args)
