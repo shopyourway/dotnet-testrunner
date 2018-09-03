@@ -2,6 +2,7 @@
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
 		<TargetFramework>netcoreapp2.0</TargetFramework>
+		<AssemblyName>dotnet-testrunner</AssemblyName>
 		<PackageId>OhioBox.TestRunner</PackageId>
 		<BuildNumber>0</BuildNumber>
 		<PackageVersionSuffix>-dev</PackageVersionSuffix>
