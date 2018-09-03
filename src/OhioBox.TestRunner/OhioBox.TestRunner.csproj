@@ -19,6 +19,5 @@
 	<ItemGroup>
 		<PackageReference Include="System.Diagnostics.Process" Version="4.3.0" />
 		<PackageReference Include="CommandLineParser" Version="2.3.0" />
-		<PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" Version="2.1.1" />
 	</ItemGroup>
 </Project>
