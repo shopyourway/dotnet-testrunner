@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OhioBox.TestRunner", "OhioBox.TestRunner\OhioBox.TestRunner.csproj", "{DC84964B-F8EB-4D33-9F30-FC4DA161FA87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleConsole", "ExampleConsole\ExampleConsole.csproj", "{A0B8E9B6-C9C0-4AA0-B9C7-6C5927346198}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{DC84964B-F8EB-4D33-9F30-FC4DA161FA87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC84964B-F8EB-4D33-9F30-FC4DA161FA87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC84964B-F8EB-4D33-9F30-FC4DA161FA87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B8E9B6-C9C0-4AA0-B9C7-6C5927346198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B8E9B6-C9C0-4AA0-B9C7-6C5927346198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B8E9B6-C9C0-4AA0-B9C7-6C5927346198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B8E9B6-C9C0-4AA0-B9C7-6C5927346198}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
