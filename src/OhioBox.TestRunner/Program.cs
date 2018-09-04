@@ -15,16 +15,15 @@ namespace OhioBox.TestRunner
 			[Option('f',"folder", Required = true, HelpText = "Folder that contains your test projects")]
 			public string TestsFolder { get; set; }
 
-			[Option('i', "include", Required = false, HelpText = "Included categories (assigned as traits with the name \"Categgory\"")]
+			[Option('i', "include", Required = false, HelpText = "Included categories (assigned as traits with the name \"Category\")")]
 			public IEnumerable<string> IncludedCategories { get; set; }
 
-			[Option('e', "exclude", Required = false, HelpText = "Excluded categories (assigned as traits with the name \"Categgory\"")]
+			[Option('e', "exclude", Required = false, HelpText = "Excluded categories (assigned as traits with the name \"Category\")")]
 			public IEnumerable<string> ExcludedCategories { get; set; }
 		}
 
 		static int Main(string[] args)
 		{
-			Console.WriteLine($"ARGS: {string.Join(",",args)}");
 			var error = true;
 			var result = Parser.Default.ParseArguments<Options>(args);
 			result.WithParsed(options =>
