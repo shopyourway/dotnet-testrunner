@@ -38,7 +38,7 @@ namespace OhioBox.TestRunner
 
 				foreach (var f in DirSearch(options.TestsFolder, x => x.EndsWith("Tests.csproj", StringComparison.OrdinalIgnoreCase)))
 				{
-					var command = $"test \"{f}\"";
+					var command = $"test -v n \"{f}\"";
 					if (!string.IsNullOrEmpty(filter))
 						command += $" --filter \"{filter}\"";
 
